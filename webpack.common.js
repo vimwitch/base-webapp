@@ -5,10 +5,10 @@ const HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin
 const path = require('path')
 
 module.exports = {
-  entry: ['./src/entry-client.js'],
+  entry: ['./src/index.js'],
   output: {
     path: path.resolve(__dirname, 'build'),
-    publicPath: '/build/',
+    publicPath: '/',
   },
   resolve: {
     extensions: ['*', '.js', '.vue'],

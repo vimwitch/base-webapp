@@ -32,3 +32,6 @@ export function createApp(cookie) {
   })
   return { app, router, store }
 }
+
+const { app } = createApp()
+app.$mount('#app')

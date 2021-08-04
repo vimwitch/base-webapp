@@ -8,19 +8,9 @@ Use the following commands to start:
 
 ```
 npm install
-npm run build-server
-npm start
+npm run dev
 ```
 
 ## Updating
 
-When a change is made you'll need to run the following:
-
-```
-npm run build-server
-npm start
-```
-
-## TODO
-
-hot reloading
+When a change is made the site should automatically update.

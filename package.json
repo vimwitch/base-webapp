@@ -6,8 +6,8 @@
   "scripts": {
     "start": "NODE_ENV=development node server.js",
     "build": "webpack --config webpack.prod.js --progress",
-    "build-server": "npm run build && webpack --config webpack.server.js --progress",
     "server": "node server",
+    "dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chance Hudson",
@@ -36,7 +36,6 @@
     "html-webpack-plugin": "^4.4.1",
     "memory-fs": "^0.5.0",
     "vue-loader": "^15.9.3",
-    "vue-server-renderer": "^2.6.12",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.12",
     "webpack": "^4.44.1",
